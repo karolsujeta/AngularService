@@ -1,0 +1,16 @@
+body{
+    background-color: #2c2c2c;
+}
+
+.datafield{
+    width: 20%;
+    background: linear-gradient(#213955, #3476a1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.displayfield{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}

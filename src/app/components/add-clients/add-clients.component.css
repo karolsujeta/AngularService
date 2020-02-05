@@ -1,0 +1,21 @@
+.data{
+text-align: center;
+}
+
+.addbutton{
+    background: linear-gradient(#ff6600, #d32000);
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.inputfielddata{
+    width: 200px;
+    height: 30px;
+    background-color: #ffffff;
+    margin-top: 5px;
+}

@@ -1,0 +1,8 @@
+.displaydata{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#10a303, #01660a);
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="data">
+        <label for="inputname"></label>
+        <input class="inputfielddata" id="inputname" [(ngModel)]="newName" placeholder="IMIĘ"><br />
+
+        <label for="inputlastname"></label>
+        <input class="inputfielddata" id="lastname" [(ngModel)]="newLastname" placeholder="NAZWISKO"><br />
+
+
+        <label for="inputage"></label>
+        <input class="inputfielddata" id="age" [(ngModel)]="newAge" placeholder="WIEK"><br />
+
+        <button class="addbutton" (click)="addClient()">Dodaj klienta!</button>
+    </div>
+</div>
