@@ -1,14 +1,19 @@
 <div class="container">
     <div class="data">
-        <label for="inputname"></label>
-        <input class="inputfielddata" id="inputname" [(ngModel)]="newName" placeholder="IMIĘ"><br />
+        <div class="input-container-name">
+            <i class="fa fa-user icon"></i>
+            <input class="inputfielddata" id="inputname" [(ngModel)]="newName" placeholder="IMIĘ"><br />
+        </div>
 
-        <label for="inputlastname"></label>
-        <input class="inputfielddata" id="lastname" [(ngModel)]="newLastname" placeholder="NAZWISKO"><br />
+        <div class="input-container-lastname">
+            <i class="fa fa-user icon"></i>
+            <input class="inputfielddata" id="lastname" [(ngModel)]="newLastname" placeholder="NAZWISKO"><br />
+        </div>
 
-
-        <label for="inputage"></label>
-        <input class="inputfielddata" id="age" [(ngModel)]="newAge" placeholder="WIEK"><br />
+        <div class="input-container-age">
+            <i class="fa fa-user icon"></i>
+            <input class="inputfielddata" id="age" [(ngModel)]="newAge" placeholder="WIEK"><br />
+        </div>
 
         <button class="addbutton" (click)="addClient()">Dodaj klienta!</button>
     </div>
